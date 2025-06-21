@@ -7,7 +7,7 @@ Commands to run
 1.
 To install this repository,you have to run command in terminal
 
-= sudo git clone...
+= sudo git clone https://github.com/Priyanka3040/ml-firewall.git
 
 2.
 Unzip the file using below command
