@@ -6,10 +6,12 @@ Commands to run
 
 1.
 To install this repository,you have to run command in terminal
+
 = sudo git clone...
 
 2.
 Unzip the file using below command
+
 = unzip "filename"     (no need to put inverted commas)
 
 3.
@@ -26,6 +28,7 @@ Unzip the file using below command
 
 7.
   After this,to run the webpage use the below given command
+
 = service2 apache start
 
 8.
