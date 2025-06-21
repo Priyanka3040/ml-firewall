@@ -1,16 +1,21 @@
-Commands to run this WAF.
+This is only applicable for Kali Linux
+--Basic steps to setup this project in your Linux--
+
+Commands to run 
 
 1.
-chmod +x config.sh && chmod +x firewall.py && chmod +x train_model.py
+To install this repository,you have to run command in terminal
+= sudo git clone...
 
 2.
-pip3 install -r requirnments.txt
-(if it's not working then make virtual Envirnment
-"sudo apt install python3-venv && python3 -m venv MLENVIR && source MLENVIR/bin/activate && pip3 install -r requirnments.txt")
-
-3.
-./config.sh
-
-4.
-python3 train_model.py
-python3 firewall.py
+Unzip the file using below command
+= unzip "filename"     (no need to put inverted commas)
+= cd ML-firewall-main
+= chmod +x *
+= pip3 install libraries and requirements
+= ./config.sh                   #This is where all the configurations of files will be setup.
+After this,to run the webpage use the below given command
+= service2 apache start
+Then, you have to run python3 firewall.py and for all this you have to be the root superuser.
+Command for this is:
+= python3 firewall.py
