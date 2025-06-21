@@ -22,7 +22,7 @@ Unzip the file using below command
   = pip3 install libraries and requirements
 
 6.
-  = ./config.sh                   #This is where all the configurations of files will be setup.
+  = ./config.sh                   #  This is where all the configurations of files will be setup.
 
 7.
   After this,to run the webpage use the below given command
@@ -30,5 +30,7 @@ Unzip the file using below command
 
 8.
   Then, you have to run python3 firewall.py and for all this you have to be the root superuser.
+
 Command for this is:
+
 = python3 firewall.py
